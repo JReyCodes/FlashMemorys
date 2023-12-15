@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    font-family: 'Preahvihear', sans-serif;}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#header {
+    display: inline-flex;
+    width: 100vw;
+    height: 6vw;
+    background-color: white;
+    justify-content: space-between;
+    border-bottom: 4px solid rgb(52, 169, 208);
+
+    img {
+        height: 100%;
+        width: 60px;
+        margin-right: 10px;
+    }
+
+
+    input {
+        width: 50%;
+        height: 50%;
+        margin-top: 17px;
+        border-radius: 30px;
+        background-color: darkgrey;
+        border: none;
+        font-size: 20px;
+    }
+}
+
+
+#sideNav {
+    height: 100vh;
+    background-color: rgb(52, 169, 208);
+    width: 10vw;
+    border-left: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    #logo-box {
+        height: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+}
+
+#maincontainer {
+    text-align: center;
+
+    #welcome-text {
+        margin-top: 17vw;
+        font-size: 100px;
+    }
+
+    .sideNav-item {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+}
